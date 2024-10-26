@@ -3,6 +3,8 @@
     height: 60vh;
     width: 70vh;
     border: 2px solid black;
+    left: 35%;
+    top: 20vh;
 }
 .login_form > *{
     margin-left: 50px;
@@ -22,7 +24,6 @@ aside{
     position: absolute;
     \*height: 10vh;*\
     \*width: 40vh;*\
-    text-decoration: underline;
     font-weight: bold;
     opacity: .7;
     text-transform: capitalize;
