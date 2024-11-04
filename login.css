@@ -3,21 +3,31 @@
     height: 60vh;
     width: 70vh;
     border: 2px solid black;
-    left: 35%;
-    top: 20vh;
+    left: 0;
+    top: 0;
 }
 .login_form > *{
     margin-left: 50px;
 }
-button{
+.yellow{
     width: 80%;
     height: 30px;
     background-color: orange;
     text-align: center;
+    transition: 2s;
     text-transform: uppercase;
 }
+.yellow:hover{
+    cursor: pointer;
+    transition: 2s;
+    transform: scaleY(1.2);
+    letter-spacing: 8px;
+    text-transform: normal;
+    
+    box-shadow: 10px 10px 10px rgba(200, 100, 0, .8);
+}
 .blue{
-    box-shadow: 5px 5px 5px rgb(100, 100, 255, .2);
+    box-shadow: 5px 5px 5px rgba(100, 100, 255, .2);
 }
 
 aside{
@@ -33,4 +43,27 @@ aside{
 aside span{
     display: block;
     text-decoration: underline;
+}
+.reg_form{
+    position: relative;
+    left: 70vh;
+    top: -65vh;
+    height: 60vh;
+    width: 50vh;
+    border: 2px solid #4bfd;
+    margin: 3rem;
+}
+section{
+    margin: 0 8rem;
+}
+section h4 h5 h6{
+    font-weight: 100;
+    font-size: 1rem;
+    text-align: center;
+
+}
+@media body (max-width: 800px){
+    .login_form{
+
+    }
 }
